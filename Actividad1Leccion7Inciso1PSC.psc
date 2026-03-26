@@ -15,4 +15,10 @@ Algoritmo Calcular_promedio
 	Leer n5
 	p = (n1+n2+n3+n4+n5)/5
 	escribir "El promedio de la materia: "+ materia +" es de," p
+	
+	si p >= 70 Entonces
+		Escribir "aprobaste"
+	SiNo
+		Escribir "perdiste"
+	FinSi
 FinAlgoritmo
